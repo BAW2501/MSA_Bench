@@ -1,0 +1,1 @@
+# Repository dedicated to generating Multiple Sequence Alignments (MSA) Scores in bulk
