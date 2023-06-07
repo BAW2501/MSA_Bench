@@ -7,10 +7,8 @@ from pprint import pprint
 if __name__ == '__main__':
     # Read sequences from file
     list_of_pairs= read_fasta_file_as_list_of_pairs(r'OxbenchClustalW\1.fa')
-    sequences_id = [pair[0] for pair in list_of_pairs]
-    aligned_sequences = [pair[1] for pair in list_of_pairs]
+    sequences_id , aligned_sequences =  zip(*list_of_pairs)
     
-
     msa = MSA(aligned_sequences, sequences_id)
     
     stats = {
