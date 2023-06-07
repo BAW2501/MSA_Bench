@@ -1,0 +1,16 @@
+# ignore all vscode files
+.vscode
+# Ignore compiled Python bytecode files
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the Python package installation directory
+dist/
+
+# Ignore environment-specific files
+.env
+
+# Ignore log files
+*.log
